@@ -1,0 +1,272 @@
+h1{
+    color: red;
+   font-family:serif;
+   font-weight: 600;
+   font-size: 33px;
+   margin-top: 15px;
+}
+
+#no2{
+    filter: blur(3px);
+}
+
+#no{
+    filter: blur(3px);
+}
+
+#buy2{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 50px;
+}
+#card2{
+    background-color: black;
+    
+    overflow: auto;
+    width: 100%;
+}
+#hdd{
+    
+    background-color: black;
+    color: white;
+}
+
+#itm{
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+#credit{
+    margin-top: 2%;
+}
+#home{
+    padding-top: 3%;
+    overflow: auto;
+}
+#tabs{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    opacity: 1;
+    z-index: 1000;
+    background-color: black;
+}
+#item{
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 2%;
+    background-color: black;
+    border: 1px solid white;
+    
+}
+hr{
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#item:hover{
+    color: red;
+    font-weight: bold;
+}
+
+#item::after{
+    color: red;
+    font-weight: bold;
+}
+
+#p1{
+color: white;
+margin-top: -29px;
+font-size: smaller;
+}
+#col1{
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    z-index: 10000;
+    opacity: 1;
+    background-color: black;
+}
+#col2{
+    position: fixed;
+    margin-top: 6%;
+    z-index: 1000;
+    opacity: 1;
+    background-color: black;
+}
+p{
+    color: white;
+    font-family: serif;
+    font-weight: 100;
+}
+#col3{
+    position: relative;
+    margin-top: 9.3%;
+    overflow: auto;   
+}
+
+#buy{
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+#pp{
+    margin-top: 2%;
+}
+#buy:hover{
+    font-family: monospace;
+    color: gold;
+}
+
+#buy2:hover{
+    font-family: monospace;
+    color: gold;
+}
+#card{
+    margin-top: 2%;
+    background-color: black;
+    overflow: auto;
+    z-index: 10;
+    height: 600px;
+}
+
+
+
+#body{
+    overflow: auto;
+}
+
+
+#hold{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#hold:hover{
+    color: gold;
+    font-size: 20px;
+}
+#header{
+    padding-left: 45%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+}
+
+#img{
+    width: 30%;
+    height: 120px;
+    border: 1px solid white;
+    position: relative;
+    margin-left: 60%;
+    margin-top: -10%;
+    background-image: url("black.jpg");
+    background-size:100% 120%;
+}
+#sign{
+    margin-left: 30%;
+    position: fixed;
+    top: 6%;
+    color: white;
+    border: 1px solid white;
+    width: 12%;
+    padding-left: 1%;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+#sign:hover{
+    color:gold;
+}
+
+#login{
+    margin-left: 50%;
+    color: white;
+    border: 1px solid white;
+    position: fixed;
+    top: 6%;
+    width: 8%;
+    padding-left: 1%;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+#login:hover{
+    color:gold;
+}
+#cart{
+    margin-left: 65%;
+    color: white;
+    position: fixed;
+    border:none;
+    top: 6%;
+    text-decoration: none;
+}
+
+#tele{
+    position: fixed;
+    top: 6%;
+    margin-left: 80%;
+    color: white;
+    font-size: 20px;
+}
+
+#insta{
+    position: fixed;
+    top: 6%;
+    margin-left: 85%;
+    color: white;
+    font-size: 20px;
+}
+
+#whats{
+    position: fixed;
+    top: 6%;
+    margin-left: 90%;
+    color: white;
+    font-size: 20px;
+}
+
+#twi{
+    position: fixed;
+    top: 6%;
+    margin-left: 95%;
+    color: white;
+    font-size: 20px;
+}
+#cart:hover{
+    color: gold;
+}
+#badge{
+    color:gold;
+    position: relative;
+    top: -7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#ke{
+    transform: rotate(90deg);
+    color: gold;
+    font-size: 20px;
+    font-family: monospace;
+}
+#container1{
+    height: auto;
+    overflow: auto;
+
+}
+body{
+    background-color: black;
+}
